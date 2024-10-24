@@ -1,0 +1,83 @@
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.head{
+    background-color: rgb(61, 55, 55);
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+    padding: 10px;
+}
+
+.nav_container ul{
+    display: flex;
+    list-style-type: none;
+    background-color: rgb(49, 43, 43);
+}
+
+.nav_container ul li a{
+    color: antiquewhite;
+    text-decoration: none;
+}
+
+.nav_container ul li{
+    margin-right: 50px;
+}
+
+.nav_container ul li a:hover{
+    color: rgb(49, 43, 43);
+    background-color: antiquewhite;
+}
+
+main{
+    background-color: rgb(129, 138, 81);
+    margin: 20px;
+    padding: 10px;
+    border-radius: 15px;
+    border: 5px solid rgb(52, 95, 34);
+}
+
+main h1{
+    color: antiquewhite;
+}
+
+.home{
+    text-align: center;
+}
+
+form{
+    display: grid;
+    grid-template-columns: 100%;
+}
+
+label, input, select{
+    margin-bottom: 9px;
+}
+
+.submit_button{
+    background-color: white;
+    cursor: pointer;
+}
+
+.submit_button:hover{
+    background-color: rgb(129, 138, 81);
+    color: antiquewhite;
+}
+
+footer{
+    background-color: rgb(61, 55, 55);
+    color: antiquewhite;
+    display: flex;
+}
+
+footer h1{
+    color: rgb(129, 138, 81);
+}
+
+footer section {
+    border-bottom: 5px solid black;
+    border-top: 5px solid black;
+}
