@@ -64,3 +64,16 @@ footer{
 footer h1{
     color: aliceblue;
 }
+
+
+.mobile-list{
+    display: grid;
+    grid-template-columns: 400px 400px;
+}
+
+.mobile{
+    border: 3px solid;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 10px;
+}

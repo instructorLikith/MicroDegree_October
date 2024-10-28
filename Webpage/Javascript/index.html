@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mobile Store</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <header>
+        <div class="head">
+
+            <h1>Mobile Store</h1>
+        </div>
+
+        <div class="navbar" id="navbar">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#About">About Us</a</li>
+                <li><a href="#Contact">Contact Us</a></li>
+                <li><a href="#Services">Services</a></li>
+            </ul>
+        </div>
+    </header>
+    <main>
+        <h1>Mobile Phones</h1>
+        <div class="mobile-list" id="mobile">
+            <div class="mobile1" id="mobile1">
+            <img src="Images/mobile.png" alt="mobile">
+            <p class="mobile-model">Mobile Model: Iphone</p>
+            <p class="mobile-name">Mobile Name: Iphone15</p>
+            <p class="mobile-price">Mobile Price: 55000/-</p>
+        </div>
+        <div class="mobile2" id="mobile2">
+            <img src="Images/mobile.png" alt="mobile">
+            <p>Mobile Model: Samsung</p>
+            <p>Mobile Name: S23</p>
+            <p>Mobile Price: 65000/-</p>
+        </div>
+        </div>
+        <div><button type="button" onclick="update_details()">Update Phone</button>
+            <button type="button" onclick="add_phone()">Add New Phone</button></div>
+    </main>
+<!-- About Section -->
+
+<footer>
+    <section class="about" id="About">
+        <h1>About Our Company</h1>
+        <p>
+            We are the best seller in the city. We have the best quality phone at your price.
+        </p>
+    </section>
+<!-- Contact Section -->
+    <section class="contact" id="Contact">
+        <h1>Contact Us!</h1>
+        <p class="child1">Address: Bengaluru</p>
+        <p class="child2">Phone Number: +911771717171</p>
+    </section>
+<!-- Services Section -->
+    <section class="services" id="Services">
+        <h1>Services that we Provide</h1>
+        <ol>
+            <li>Buy/Sell</li>
+            <li>Repair</li>
+            <li>Service</li>
+            <li>Exchange</li>
+        </ol>
+    </section>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>

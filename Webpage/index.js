@@ -13,7 +13,6 @@ function sample(){
     }}
 //sample()
 
-
 function sample1(){
     var x = 'Hello'
     console.log(x[0])
@@ -44,4 +43,24 @@ function sample2(p1,p2,p3){
     return new_item
 }
 
-console.log(sample2("Hello ","World"))
+// console.log(sample2("Hello ","World"))
+
+class Student {
+    constructor(name, rNo){
+        this.Student_Name = name
+        this.Roll_No = rNo
+        this.Email = name+"@gmail.com"
+    }
+
+    showDetails(){
+        console.log("Name: ", this.Student_Name)
+        console.log("Roll No: ", this.Roll_No)
+        console.log("Email: ", this.Email )
+    }
+}
+
+const sampObject = new Student("ASDF", 101)
+const sampObject1 = new Student("ABCD", 102)
+
+sampObject.showDetails()
+sampObject1.showDetails()
