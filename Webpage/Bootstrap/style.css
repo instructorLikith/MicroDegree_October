@@ -1,0 +1,11 @@
+.card{
+    padding-left: 40px;
+    background-color: wheat;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+.footer{
+    background-color: rgb(46, 45, 45);
+    color: olive;
+}
